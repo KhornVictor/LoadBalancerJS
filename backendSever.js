@@ -10,3 +10,8 @@ const createServer = (host, port) => {
       console.log(`Server running at http://${host}:${port}/`);
     });
 };
+
+createServer("localhost", 3001);
+createServer("localhost", 3002);
+createServer("localhost", 3003);
+createServer("localhost", 3004);
